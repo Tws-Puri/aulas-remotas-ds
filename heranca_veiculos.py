@@ -6,7 +6,6 @@ class Veiculo:
     def exibir_informacoes(self):
         return f"Marca: {self.marca}, Modelo: {self.modelo}"
 
-
 class Carro(Veiculo):
     def __init__(self, marca, modelo, numero_portas):
         super().__init__(marca, modelo)
@@ -15,3 +14,4 @@ class Carro(Veiculo):
     def exibir_informacoes(self):
 
         return f"Marca: {self.marca}, Modelo: {self.modelo}, Portas: {self.numero_portas}"
+
