@@ -14,7 +14,7 @@ def calculadora(numero1, numero2, operacao):
         else:
             return "Erro: divisão por zero"
 
-    return "Operação inválida"
+    return "Operação invalida"
 
 # ex
 
@@ -22,4 +22,5 @@ numero1 = float(input("Digite o primeiro número: "))
 operacao = input("Digite a operação (+, -, *, /): ")
 numero2 = float(input("Digite o segundo número: "))
 resultado = calculadora(numero1, numero2, operacao)
+
 print("Resultado:", resultado)
