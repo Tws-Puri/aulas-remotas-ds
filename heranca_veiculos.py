@@ -1,4 +1,3 @@
-
 class Veiculo:
     def __init__(self, marca, modelo):
         self.marca = marca
@@ -14,4 +13,5 @@ class Carro(Veiculo):
         self.numero_portas = numero_portas
 
     def exibir_informacoes(self):
+
         return f"Marca: {self.marca}, Modelo: {self.modelo}, Portas: {self.numero_portas}"
